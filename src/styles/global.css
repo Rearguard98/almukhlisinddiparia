@@ -10,3 +10,4 @@
         cursor: pointer;
     }
 }
+@custom-variant dark (&:where(.dark, .dark *));
