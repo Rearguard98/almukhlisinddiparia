@@ -1,8 +1,5 @@
 @import "tailwindcss";
 @import "preline/variants.css";
-
-
-/* Adds pointer cursor to buttons */
 @layer base {
 
     button:not(:disabled),
