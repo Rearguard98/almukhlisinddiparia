@@ -1,0 +1,24 @@
+---
+import { Image } from "astro:assets";
+import hero from "../assets/Perbedaan-vektor-dan-bitmap.webp";
+---
+
+<div
+  class="md:flex md:flex-row gap-9 pt-5 w-full justify-items-center justify-center pb-14"
+>
+  <div class="flex flex-col items-center align-middle justify-center p-8 md:p-0">
+    <h1 class="text-center text-xl lg:text-3xl md:text-2xl sm:text-xl">
+      Pondok Pesantren Al-Mukhlisin DDI Paria
+    </h1>
+  </div>
+  <div class="max-w-full align-middle items-center justify-center">
+    <Image
+      class="p-0 rounded-xl"
+      loading="eager"
+      src={hero}
+      height={500}
+      width={500}
+      alt="Gambar Hero"
+    />
+  </div>
+</div>
