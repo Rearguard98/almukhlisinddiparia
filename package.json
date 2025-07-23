@@ -9,10 +9,11 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^12.6.0",
     "@preline/collapse": "^3.0.0",
     "@preline/theme-switch": "^3.0.0",
     "@tailwindcss/vite": "^4.0.17",
-    "astro": "^5.7.10",
+    "astro": "^5.12.2",
     "preline": "^3.0.1",
     "tailwindcss": "^4.0.17"
   }
